@@ -1,24 +1,18 @@
-// Program: Terning
-// Version: 2.00
-// Date created: 2014-06-10
-// Last modified: 2016-09-24
-// Author: Bjørn Christensen 
-// Modified by: Agner Fog
+/* Program: Terning
+ Version: 2.00
+ Date created: 2014-06-10
+ Last modified: 2016-09-24
+ Author: Bjørn Christensen 
+ Modified by: Agner Fog
 
-// Description:
-// This program simulates roll of a die
-// It has three errors:
-// 1. The program asks the user how many times he wants the dice to roll.
-//    If he doesn´t enter a valid number the program will crash.
-// 2. The program rolls the dice one time less than asked
-// 3. The dice is not symetric. It will roll too few ones and six'es
-
-<<<<<<< HEAD:terning/UseDice.java
-
-
-
-=======
->>>>>>> c7251249ecbb85f51d6a330cc91a7a27f6290894:UseDice.java
+ Description:
+ This program simulates roll of a die
+ It has three errors:
+ 1. The program asks the user how many times he wants the dice to roll.
+If he doesn´t enter a valid number the program will crash.
+  2. The program rolls the dice one time less than asked
+  3. The dice is not symetric. It will roll too few ones and six'es
+*/
 import java.util.Scanner;
 
 public class UseDice {
