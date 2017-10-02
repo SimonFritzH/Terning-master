@@ -8,7 +8,7 @@ import org.junit.Test;
  * @author Mathias Thejsen
  *
  */
-public class diceTest2 {
+public class diceTest {
 
 	/**
 	 * Test method for {@link Dice#roll()}.

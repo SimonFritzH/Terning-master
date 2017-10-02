@@ -15,7 +15,7 @@ If he doesn´t enter a valid number the program will crash.
   3. The dice is not symetric. It will roll too few ones and six'es
  */
 import java.util.Scanner;
-public class UseDice2 {
+public class UseDice {
 	public static void main(String[] args) {
 		Dice cup = new Dice();   // Make an instance of Dice
 		Scanner keyboard=new Scanner(System.in);   // Make an instance of keyboard Scanner
