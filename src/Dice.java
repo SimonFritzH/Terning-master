@@ -1,7 +1,9 @@
+import java.util.concurrent.ThreadLocalRandom;
+
 public class Dice {
 	// roll the die and return the value (1-6)
-	public int roll() {
-		return (int) Math.round(Math.random()*5)+1;                     // 1-6		
+	private int roll() {
+		return (int) ThreadLocalRandom.current().nextInt(1, 6 + 1);
 	}
 
 	// roll the die n times and print the values
@@ -10,4 +12,15 @@ public class Dice {
 			System.out.print(roll() + " ");
 		}		
 	}
+	// first param is the int to look for and second is amount of tests
+	protected int collector(int n, int times) {
+		int collection = 0;
+		for (int i=0; i<times; i++) {
+			if(roll() == n) {
+				collection++;
+			}
+		}
+		return collection;
+	}
+
 }
