@@ -1,3 +1,4 @@
+
 import static org.junit.Assert.*;
 
 import org.junit.Test;
@@ -7,7 +8,7 @@ import org.junit.Test;
  * @author Mathias Thejsen
  *
  */
-public class diceTest {
+public class diceTest2 {
 
 	/**
 	 * Test method for {@link Dice#roll()}.
