@@ -8,4 +8,5 @@ The bugs are as follows:
 
 
 ## Purpose
-This is an exercise in using _GIT_ to fix errors and trace the changes.
+This exercise had the purpose of testing _Junit_, _GitHub_ collaberation and _Markdown_ files.
+Additionally it had the purpose of fixing errors and tracing those changes.
