@@ -13,9 +13,12 @@
 // 2. The program rolls the dice one time less than asked
 // 3. The dice is not symetric. It will roll too few ones and six'es
 
+<<<<<<< HEAD:terning/UseDice.java
 
 
 
+=======
+>>>>>>> c7251249ecbb85f51d6a330cc91a7a27f6290894:UseDice.java
 import java.util.Scanner;
 
 public class UseDice {
